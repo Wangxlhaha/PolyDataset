@@ -1,4 +1,5 @@
 结肠镜息肉分割常用数据集汇总仓库，包含 4 个经典公开数据集，使用 Git LFS 管理大文件。
+
 📋 项目简介
 本仓库收集了胃肠道内镜（结肠镜）息肉分割任务中常用的 4 个公开数据集，方便研究者快速获取、统一管理数据，适用于医学图像分割、计算机辅助诊断等学术研究场景。
 包含数据集：
@@ -6,12 +7,14 @@ CVC-ClinicDB
 CVC-ColonDB
 ETIS-LaribPolypDB
 Kvasir-SEG
+
 📊 数据集列表
 数据集名称	            任务类型	         模态	      数据量（图像 + 掩码）
 CVC-ClinicDB	    结肠镜息肉分割	  结肠镜 RGB 图像	    612 幅
 CVC-ColonDB	      结肠镜息肉分割	  结肠镜 RGB 图像	    380 幅
 ETIS-LaribPolypDB	结肠镜息肉分割	  结肠镜 RGB 图像	    196 幅
 Kvasir-SEG	      结肠镜息肉分割	  结肠镜 RGB 图像	   1000 幅
+
 📂 各数据集详情
 1. CVC-ClinicDB
 来源：西班牙瓦伦西亚理工大学（Polytechnic University of Valencia, CVC）
@@ -33,6 +36,7 @@ Kvasir-SEG	      结肠镜息肉分割	  结肠镜 RGB 图像	   1000 幅
 任务：结肠镜息肉分割
 数据特点：来自真实临床场景的多样化息肉图像，分辨率为 332×500
 优势：数据量较大，贴近实际临床需求
+
 🛠️ 使用方法
 本仓库通过Git LFS管理大尺寸图像文件，请按照以下步骤获取数据：
 先安装 Git LFS（已安装可跳过）：
@@ -51,6 +55,7 @@ git lfs install
 bash
 运行
 git clone [你的仓库URL]
+
 📚 引用方式
 若使用本仓库中的数据集，请引用各数据集的原始论文：
 CVC-ClinicDB：
@@ -85,10 +90,12 @@ bibtex
   journal={Scientific Data},
   year={2020}
 }
+
 📜 许可证声明
 各数据集遵循其原始发布许可证：
 CVC-ClinicDB/CVC-ColonDB：学术非商用许可
 ETIS-LaribPolypDB：CC BY-NC-SA 4.0
 Kvasir-SEG：CC BY 4.0
+
 ⚠️ 免责声明
 本仓库仅用于学术研究目的，不用于临床诊断或商用。使用数据时请遵守各数据集的原始使用条款，作者不对数据的准确性、适用性承担责任。
