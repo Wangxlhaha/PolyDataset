@@ -3,16 +3,24 @@
 📋 项目简介
 本仓库收集了胃肠道内镜（结肠镜）息肉分割任务中常用的 4 个公开数据集，方便研究者快速获取、统一管理数据，适用于医学图像分割、计算机辅助诊断等学术研究场景。
 包含数据集：
+
 CVC-ClinicDB
+
 CVC-ColonDB
+
 ETIS-LaribPolypDB
+
 Kvasir-SEG
 
 📊 数据集列表
 数据集名称	            任务类型	         模态	      数据量（图像 + 掩码）
+
 CVC-ClinicDB	    结肠镜息肉分割	  结肠镜 RGB 图像	    612 幅
+
 CVC-ColonDB	      结肠镜息肉分割	  结肠镜 RGB 图像	    380 幅
+
 ETIS-LaribPolypDB	结肠镜息肉分割	  结肠镜 RGB 图像	    196 幅
+
 Kvasir-SEG	      结肠镜息肉分割	  结肠镜 RGB 图像	   1000 幅
 
 📂 各数据集详情
