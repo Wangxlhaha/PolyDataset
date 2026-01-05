@@ -58,7 +58,9 @@ git clone [你的仓库URL]
 
 📚 引用方式
 若使用本仓库中的数据集，请引用各数据集的原始论文：
+
 CVC-ClinicDB：
+
 bibtex
 @inproceedings{carneiro2015endoscene,
   title={EndoScene: A new dataset for polyp detection and classification},
@@ -66,7 +68,9 @@ bibtex
   booktitle={MICCAI Workshop on Computer-Aided Detection and Diagnosis in Medical Imaging},
   year={2015}
 }
+
 CVC-ColonDB：
+
 bibtex
 @inproceedings{bernal2014segmentation,
   title={Segmentation of colorectal polyps with kernel density estimation and graph cuts},
@@ -74,7 +78,9 @@ bibtex
   booktitle={IEEE International Symposium on Biomedical Imaging},
   year={2014}
 }
+
 ETIS-LaribPolypDB：
+
 bibtex
 @article{walk2017etis,
   title={ETIS-LaribPolypDB: A polyp dataset for computer aided diagnosis in colonoscopy},
@@ -82,7 +88,9 @@ bibtex
   journal={Journal of Biomedical and Health Informatics},
   year={2017}
 }
+
 Kvasir-SEG：
+
 bibtex
 @article{jha2020kvasir,
   title={Kvasir-SEG: A segmented polyp dataset from gastrointestinal tract},
@@ -93,8 +101,11 @@ bibtex
 
 📜 许可证声明
 各数据集遵循其原始发布许可证：
+
 CVC-ClinicDB/CVC-ColonDB：学术非商用许可
+
 ETIS-LaribPolypDB：CC BY-NC-SA 4.0
+
 Kvasir-SEG：CC BY 4.0
 
 ⚠️ 免责声明
